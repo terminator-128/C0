@@ -7,7 +7,7 @@ package JavaCompiler.scanner;
  */
 
 public enum TokenType {
-    None,       // 空
+    None,       // empty occupied
 
     /* 无符号整数 Integer */
     Integer,    // classified as follows
@@ -64,7 +64,7 @@ public enum TokenType {
     Comma,      // ,
     Semicolon,  // ;
 
-    ExclmMk,    // !
+    ExclMk,    // !
 
     /* 注释 */
     SLineCmt,   // single line comment
